@@ -12,8 +12,8 @@ public class OpenTheApplication implements Task {
 
     @Step("Open the application")
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(
-                Open.browserOn().the(googleSearchPage)
-        );
+//        actor.attemptsTo(
+//                Open.browserOn().the(googleSearchPage)
+        //);
     }
 }
