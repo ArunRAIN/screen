@@ -1,0 +1,36 @@
+<acceptance-test-run title="Search results should show the search term in the text" name="search_results_should_show_the_search_term_in_the_text" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19021" timestamp="2017-09-04T19:32:24.678+05:30" session-id="bbb776ba0fc84797914fc06e27232e8c">
+  <user-story id="com.screenply.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.screenply.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-group name="Open the application" result="SUCCESS">
+    <screenshots>
+      <screenshot image="74a9c7fdbd066f7ebcfff55e45b9fc74.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="11569">
+      <screenshots>
+        <screenshot image="74a9c7fdbd066f7ebcfff55e45b9fc74.png"/>
+      </screenshots>
+      <description>Anna opens the Google search page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Search for java tutorial" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b720f59a1e3bc84e695c0ce3c4ea9437.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4989">
+      <screenshots>
+        <screenshot image="b720f59a1e3bc84e695c0ce3c4ea9437.png"/>
+      </screenshots>
+      <description>Anna enters &apos;java tutorial&apos; into search field</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="770">
+    <screenshots>
+      <screenshot image="b720f59a1e3bc84e695c0ce3c4ea9437.png"/>
+    </screenshots>
+    <description>Then the todo items should be a collection containing &apos;java tutorial&apos;</description>
+  </test-step>
+</acceptance-test-run>

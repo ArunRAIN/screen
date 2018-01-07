@@ -1,0 +1,32 @@
+<acceptance-test-run title="Search results should show the search term in the text1" name="search_results_should_show_the_search_term_in_the_text1" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="9332" timestamp="2017-09-04T19:32:43.909+05:30" session-id="bbb776ba0fc84797914fc06e27232e8c">
+  <user-story id="com.screenply.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.screenply.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-group name="Open the application" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b720f59a1e3bc84e695c0ce3c4ea9437.png"/>
+      <screenshot image="74a9c7fdbd066f7ebcfff55e45b9fc74.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2974">
+      <screenshots>
+        <screenshot image="b720f59a1e3bc84e695c0ce3c4ea9437.png"/>
+        <screenshot image="74a9c7fdbd066f7ebcfff55e45b9fc74.png"/>
+      </screenshots>
+      <description>Anna opens the Google search page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Search for java video" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d13b43b2724454a58f54da511280f116.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4783">
+      <screenshots>
+        <screenshot image="d13b43b2724454a58f54da511280f116.png"/>
+      </screenshots>
+      <description>Anna enters &apos;java video&apos; into search field</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,8 @@
+<acceptance-test-run title="Initialisation" name="Initialisation" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="0" timestamp="2017-07-06T21:00:02.653+05:30">
+  <user-story id="com.screenply.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.screenply.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+</acceptance-test-run>

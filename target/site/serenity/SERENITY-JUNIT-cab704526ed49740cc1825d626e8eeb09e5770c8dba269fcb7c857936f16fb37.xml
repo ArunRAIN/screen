@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.screenply.features.search.SearchByKeywordStory" skipped="0" tests="2" time="28.35" timestamp="2017-09-247 07:32:24"><testcase classname="com.screenply.features.search.SearchByKeywordStory" name="Search results should show the search term in the text"/><testcase classname="com.screenply.features.search.SearchByKeywordStory" name="Search results should show the search term in the text1"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.screenply.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_text1(SearchByKeywordStory.java:53)&#13;
+</system-err></testcase></testsuite>

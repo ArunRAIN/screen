@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.screenply.features.search.SearchByKeywordStory
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.893 sec <<< FAILURE! - in com.screenply.features.search.SearchByKeywordStory
+search_results_should_show_the_search_term_in_the_text1(com.screenply.features.search.SearchByKeywordStory)  Time elapsed: 9.329 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at net.serenitybdd.screenplay.EventBusInterface.reportStepFailureFor(EventBusInterface.java:16)
+	at net.serenitybdd.screenplay.ErrorTally.recordError(ErrorTally.java:22)
+	at net.serenitybdd.screenplay.Actor.check(Actor.java:175)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:149)
+	at com.screenply.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_text1(SearchByKeywordStory.java:53)
+
